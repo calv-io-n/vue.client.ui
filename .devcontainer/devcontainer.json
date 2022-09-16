@@ -2,17 +2,22 @@
 	"name": "UI Template [CHANGE-ME]",
 	"dockerComposeFile": "../dev.docker-compose.yaml",
 	"service": "template",
-	"workspaceFolder": "/workspace",
-	"shutdownAction": "stopCompose"
-	// "customizations": {
-    // // Configure properties specific to VS Code.
-    // "vscode": {
-    //   // Add the IDs of extensions you want installed when the container is created.
-    //   "extensions": [
-	// 			"ms-dotnettools.csharp",
-	// 			"esbenp.prettier-vscode",
-	// 			"leo-labs.dotnet",
-	// 	]
-    // }
-//   }
+	"workspaceFolder": "/app",
+	"shutdownAction": "stopCompose",
+		// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Set *default* container specific settings.json values on container create.
+			"settings": {},
+			
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"hollowtree.vue-snippets",
+				"esbenp.prettier-vscode",
+				"dbaeumer.vscode-eslint",
+				"octref.vetur"
+			]
+		}
+	}
 }

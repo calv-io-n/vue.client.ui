@@ -2,8 +2,8 @@
   "name": "vue.client.ui",
   "version": "1.0.0",
   "private": true,
-  "description": "---",
-  "author": "",
+  "description": "Vuetify 3, Vue 3 Template [CHANGE ME]",
+  "author": "CALV.IO.N",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
