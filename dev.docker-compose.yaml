@@ -1,7 +1,8 @@
 version: '3.2'
 
 services:
-  client-name:
+  # [CHANGE]: Change to match .devcontainer/devcontainer.json
+  template:
     env_file: .env
     build:
       context: .

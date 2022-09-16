@@ -1,6 +1,9 @@
-# vue.client.ui
+# Vuetify 3 + Vue 3 CALV.IO.N Project Starter
+## vue.client.ui
 
-## Project setup
+--- 
+
+## Install the linter locally
 ```
 npm install
 ```
